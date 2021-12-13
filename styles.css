@@ -1,7 +1,6 @@
 /* "Kumbh Sans" 400 700 */
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
-
 :root{
     --dark_cyan: hsl(185, 75%, 39%);
     --very_dark_desaturated_blue: hsl(229, 23%, 23%);
@@ -15,15 +14,102 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: "Kumbh Sans", sans-serif, serif;
+    font-size: 1.10rem;
 }
 
 html{
     height: 100vh;
+
+    background-color: var(--dark_cyan);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top -500px left -290px, bottom -600px right -250px;
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     height: 100%;
 }
 
 /* # Main card # */
+main{
+    width: 340px;
+    padding-top: 90px;
+    border: 0px transparent solid;
+    margin-bottom: 10px;
+
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+
+    border-radius: 15px;
+}
+
+/* ## Personal information ## */
+img{
+    height: 110px;
+    border: 5px white solid;
+    margin: 0 115px 15px;
+
+    border-radius: 90px;
+}
+
+#name_age{
+    text-align: center;
+
+    margin-bottom: 8px;
+}
+
+h1{
+    display: inline;    
+}
+
+#age{
+    display: inline;
+
+    padding-left: 5px;
+
+    font-size: 1rem;
+    color: var(--dark_grayish_blue);
+}
+
+#city{
+    
+    color: var(--dark_grayish_blue);
+    font-size: 0.8rem;
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+.border{
+    border-top: 1px var(--dark_cyan) solid;
+    opacity: 0.3;
+}
+
+/* ## Stats ## */
+#stats{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 20px 50px 25px;
+}
+
+#stats h2{
+    margin-bottom: 5px;
+
+    font-size: 1rem;
+    text-align: center;
+}
+
+#stats p{
+    color: var(--dark_grayish_blue);
+    text-align: center;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+}
 
