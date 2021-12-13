@@ -23,11 +23,11 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 Desktop view :
 
-<img href="images/screens/desktop_screen.png">
+<img src="images/screens/desktop_screen.png">
 
 Mobile view :
 
-<img href="images/screens/mobile_screen.png">
+<img src="images/screens/mobile_screen.png">
 
 ### Links
 
